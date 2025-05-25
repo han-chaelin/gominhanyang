@@ -36,24 +36,17 @@
 
 
 .card {
-  background-color: #fff6a3;
-  border: 3px solid #f7eb6c;
-  border-radius: 1.2rem;
+  background-color: #d0f4e4;
+  border: 3px solid #5ccbb2;
+  border-radius: 1rem;
   padding: 1rem 1.4rem;
   font-family: 'KyoboHand', sans-serif;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
   width: 90%;
   max-width: 400px;
-  margin: 0 auto 1.4rem;
+  margin: 0 auto 1.2rem;
   cursor: pointer;
   transition: transform 0.15s ease;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent,
-    transparent 3.3rem,
-    #f7eb6c 3.3rem,
-    #f7eb6c 3.8rem
-  );
 }
 
 .card:hover {
@@ -61,13 +54,23 @@
 }
 
 .title {
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
+  margin-bottom: 0.6rem;
+  color: #222;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .date {
   font-size: 0.95rem;
   color: #444;
-  text-align: right;
+}
+
+.emoji {
+  font-size: 1.2rem;
 }
