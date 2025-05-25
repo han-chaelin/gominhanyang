@@ -58,97 +58,26 @@
   white-space: pre-wrap;
 }*/
 
+/* 전체 페이지 배경 */
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1rem;
-  background-color: #cce5e7;
+  background-color: #e6f4fb;
   min-height: 100vh;
   box-sizing: border-box;
 }
 
-/* 편지 카드 (노란색 포스트잇 스타일) */
-/*.letterContainer {
+/* 편지 카드 */
+.letterContainer {
   width: 90%;
   max-width: 400px;
-  margin: 1rem 0;
-  padding: 1rem;
-  background-color: #fff6a3;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    #fff6a3 0px,
-    #fff6a3 23px,
-    #f7e98b 24px
-  );
-  border-radius: 10px;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
-  font-size: 1.1rem;
-  line-height: 1.6;
-}*/
-
-/* 텍스트 박스 */
-.letterContainer {
-  width: 25rem;
-  height: 14rem;
-  background-image: url('/image/post/yellow_box.webp');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* 전체 답장 목록 */
-.commentsContainer {
+  background-color: #fbf39d;
+  border: 1rem solid #f7eb6c;
+  padding: 2rem;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100%;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-/* 개별 답장 카드 (분홍색 포스트잇 스타일) */
-.commentItem {
-  width: 90%;
-  max-width: 400px;
-  padding: 1rem;
-  background-color: #ffd5d5;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    #ffd5d5 0px,
-    #ffd5d5 23px,
-    #f5bbbb 24px
-  );
-  border-radius: 10px;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
-  font-size: 1.05rem;
-  line-height: 1.6;
-}
-
-/* 답장 상단: 닉네임 + 날짜 */
-.commentHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0.5rem;
-}
-
-.commentAuthor {
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-.commentDate {
-  font-size: 0.9rem;
-  color: #555;
-}
-
-.commentContent {
-  font-size: 1.05rem;
-  white-space: pre-wrap;
-}
-
-
+  height: auto;
+  font-size: 1.2r
