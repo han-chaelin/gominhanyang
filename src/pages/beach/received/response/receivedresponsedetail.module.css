@@ -82,7 +82,7 @@
 
 /* 편지 카드 */
 .letterContainer {
-  width: 70%;
+  width: 50%;
   background-color: #fbf39d;
   border: 1rem solid #f7eb6c;
   padding: 2rem;
@@ -93,9 +93,9 @@
   background-image: repeating-linear-gradient(
     to bottom,
     transparent,
-    transparent 3.3vw,
-    #f7eb6c 3.3vw,
-    #f7eb6c 3.8vw
+    transparent 3.3rem,
+    #f7eb6c 3.3rem,
+    #f7eb6c 3.8rem
   );
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
   min-height: 0;
@@ -113,8 +113,7 @@
 
 /* 개별 답장 카드 */
 .commentItem {
-  width: 90%;
-  max-width: 400px;
+  width: 50%;
   background-color: #ffd5d5;
   border: 1rem solid #f5bbbb;
   padding: 2rem;
