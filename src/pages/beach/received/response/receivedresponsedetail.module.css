@@ -69,6 +69,17 @@
   box-sizing: border-box;
 }
 
+.letterSection {
+  background-color: #fbf39d;
+  border: 1rem solid #f7eb6c;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 30%; /* footer 고려하여 비율 조정 */
+  min-height: 0;
+}
+
 /* 편지 카드 */
 .letterContainer {
   width: 90%;
@@ -79,7 +90,7 @@
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  height: auto;
+  height: 30%; /* footer 고려하여 비율 조정 */
   font-size: 1.2rem;
   background-image: repeating-linear-gradient(
     to bottom,
@@ -89,7 +100,7 @@
     #f7eb6c 3.8vw
   );
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
-  line-height: 1.6;
+  min-height: 0;
 }
 
 /* 답장 전체 리스트 */
