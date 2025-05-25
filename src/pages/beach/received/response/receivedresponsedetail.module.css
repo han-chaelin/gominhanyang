@@ -80,5 +80,72 @@
   display: flex;
   flex-direction: column;
   height: auto;
-  font-size: 1.2r
+  font-size: 1.2rem;
+  font-family: 'KyoboHand', sans-serif;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 3.3rem,
+    #f7eb6c 3.3rem,
+    #f7eb6c 3.8rem
+  );
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+}
+
+/* 답장 전체 리스트 */
+.commentsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+/* 개별 답장 카드 */
+.commentItem {
+  width: 90%;
+  max-width: 400px;
+  background-color: #ffd5d5;
+  border: 1rem solid #f5bbbb;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-family: 'KyoboHand', sans-serif;
+  font-size: 1.1rem;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 3.3rem,
+    #f5bbbb 3.3rem,
+    #f5bbbb 3.8rem
+  );
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+}
+
+/* 답장 헤더: 작성자, 날짜 */
+.commentHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* 작성자 닉네임 */
+.commentAuthor {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* 작성 날짜 */
+.commentDate {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* 답장 본문 */
+.commentContent {
+  font-size: 1.1rem;
+  white-space: pre-wrap;
 }
