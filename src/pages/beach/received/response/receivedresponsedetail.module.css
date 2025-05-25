@@ -62,42 +62,46 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1rem;
   background-color: #cce5e7;
   min-height: 100vh;
-  padding: 2rem 1rem;
   box-sizing: border-box;
 }
 
-/* 편지 카드 */
+/* 편지 카드 (노란색 포스트잇 스타일) */
 .letterContainer {
-  width: 100%;
-  max-width: 600px;
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-  border-radius: 12px;
-  background-color: #fdf4a6;
+  width: 90%;
+  max-width: 400px;
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #fff6a3;
   background-image: repeating-linear-gradient(
     to bottom,
-    #fdf4a6 0px,
-    #fdf4a6 23px,
+    #fff6a3 0px,
+    #fff6a3 23px,
     #f7e98b 24px
   );
+  border-radius: 10px;
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
-  line-height: 1.8;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
-/* 답장 리스트 전체 */
+/* 전체 답장 목록 */
 .commentsContainer {
-  width: 100%;
-  max-width: 600px;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
-/* 개별 답장 카드 */
+/* 개별 답장 카드 (분홍색 포스트잇 스타일) */
 .commentItem {
+  width: 90%;
+  max-width: 400px;
+  padding: 1rem;
   background-color: #ffd5d5;
   background-image: repeating-linear-gradient(
     to bottom,
@@ -105,12 +109,13 @@
     #ffd5d5 23px,
     #f5bbbb 24px
   );
-  padding: 1.2rem;
-  border-radius: 12px;
+  border-radius: 10px;
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 1.05rem;
+  line-height: 1.6;
 }
 
-/* 답장 카드 상단: 작성자 & 날짜 */
+/* 답장 상단: 닉네임 + 날짜 */
 .commentHeader {
   display: flex;
   justify-content: space-between;
@@ -118,21 +123,19 @@
   margin-bottom: 0.5rem;
 }
 
-/* 작성자 */
 .commentAuthor {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
-/* 날짜 */
 .commentDate {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #555;
 }
 
-/* 내용 */
 .commentContent {
-  font-size: 1.2rem;
-  line-height: 1.7;
+  font-size: 1.05rem;
+  white-space: pre-wrap;
 }
+
 
