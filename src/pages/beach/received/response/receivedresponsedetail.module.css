@@ -81,13 +81,12 @@
   flex-direction: column;
   height: auto;
   font-size: 1.2rem;
-  font-family: 'KyoboHand', sans-serif;
   background-image: repeating-linear-gradient(
     to bottom,
     transparent,
-    transparent 3.3rem,
-    #f7eb6c 3.3rem,
-    #f7eb6c 3.8rem
+    transparent 3.3vw,
+    #f7eb6c 3.3vw,
+    #f7eb6c 3.8vw
   );
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
   line-height: 1.6;
@@ -111,7 +110,6 @@
   border: 1rem solid #f5bbbb;
   padding: 2rem;
   border-radius: 1rem;
-  font-family: 'KyoboHand', sans-serif;
   font-size: 1.1rem;
   background-image: repeating-linear-gradient(
     to bottom,
