@@ -58,7 +58,7 @@
   white-space: pre-wrap;
 }*/
 
-/* 전체 페이지 배경 
+/* 전체 페이지 배경 */
 .container {
   display: flex;
   flex-direction: column;
@@ -67,18 +67,6 @@
   background-color: #e6f4fb;
   min-height: 100vh;
   box-sizing: border-box;
-}*/
-
-.container {
-  flex: 1;
-  padding: 2rem 3rem;
-  padding-bottom: 0;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-  overflow: hidden;
-  min-height: 0;
 }
 
 .letterSection {
@@ -94,6 +82,7 @@
 
 /* 편지 카드 */
 .letterContainer {
+  width: 90%;
   background-color: #fbf39d;
   border: 1rem solid #f7eb6c;
   padding: 2rem;
